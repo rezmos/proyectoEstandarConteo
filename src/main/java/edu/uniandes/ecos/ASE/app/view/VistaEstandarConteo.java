@@ -145,7 +145,7 @@ public class VistaEstandarConteo extends JFrame implements ActionListener {
                 cont+=proxy.getTotalProxySize();
                 this.jTextAreaProxies.append(proxy + "\n");
             }
-            this.jTextAreaProxies.append("\n TOTAL: "+cont);
+            this.jTextAreaProxies.append("\n TOTAL: "+cont+"\n");
         }
     }
 }
